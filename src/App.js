@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+
+import Banner from './components/Banner/Banner';
+import Header from './components/Header/Header';
+import TopHeader from './components/TopHeader/TopHeader';
+import OneStop from './components/OneStop/OneStop';
+import Services from './components/Services/Services';
+import Certification from './components/Certification/Certification';
+import Products from './components/Products/Products';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <TopHeader></TopHeader>
+        <Header></Header>
+        <Banner></Banner>
+        <OneStop></OneStop>
+        <Services></Services>
+        <Certification></Certification>
+        <Products></Products>
+      </BrowserRouter>
     </div>
   );
 }

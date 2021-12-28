@@ -1,0 +1,5 @@
+.product-title h1{
+    writing-mode: vertical-rl;
+    left: -50px;
+    transform: rotate(180deg);
+}

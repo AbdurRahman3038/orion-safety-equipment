@@ -1,0 +1,42 @@
+.certification-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 180px;
+}
+.certification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.certication-img{
+    width: 400px;
+}
+.certification-title{
+    text-align: center;
+    font-size: 30px;
+}
+.certification-desc{
+    margin-top: 0;
+    text-align: center;
+    padding: 0 25px;
+}
+
+.certification-learn-btn{
+    background-color: #BE0505;
+    border: 2px solid #BE0505;
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.certification-learn-btn:hover{
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    background-color: white;
+}
