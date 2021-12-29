@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
+    position: relative;
     /* display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -59,7 +60,7 @@
     align-items: center;
 }
 .icon-design-2 {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     font-size: 20px;
     color: rgb(255, 255, 255);
 }

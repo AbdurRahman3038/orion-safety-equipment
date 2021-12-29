@@ -3,8 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #292a2b;
+    background-color: transparent;
     padding: 5px 130px;
+    position: fixed;
+    top: 10%;
 }
 
 .header-img{
@@ -24,7 +26,10 @@
     color: rgb(221, 213, 213);
     padding: 8px 12px;
     font-weight: 600;
+    text-transform: uppercase;
 }
+
+
 
 @media only screen and (max-width:688px){
 
@@ -53,4 +58,55 @@
     }
 
 
+}
+
+.feature{
+    background-image: url(../../images/banner\ 4.jpg);
+    background-size:cover;
+    height:100vh;
+    background-position: center;
+    
+}
+
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+
+}
+
+.banner-title{
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+.banner-desc{
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 6px;
+    text-align: center;
+    color: white;
+}
+
+.learn-more-btn{
+    background-color: #BE0505;
+    border: 2px solid #BE0505;
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.learn-more-btn:hover{
+    border: 2px solid white;
+}
+
+@media only screen and (max-width:688px){
+    .feature{
+        margin: 0 10px;
+    }
 }

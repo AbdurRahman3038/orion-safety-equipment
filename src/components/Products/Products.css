@@ -1,5 +1,62 @@
-.product-title h1{
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.938),rgba(8, 8, 8, 0.925), rgba(15, 15, 15, 0.904), rgba(7, 7, 7, 0.911)), url(../../images/product-background.jpg);
+    background-size:cover;
+    /* height:60vh; */
+    background-position: center;
+    color: white;
+}
+
+.titile-part{
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    position: relative;
     writing-mode: vertical-rl;
-    left: -50px;
+    left: 10px;
+    top: 85px;
     transform: rotate(180deg);
+    font-size: 45px;
+}
+.categories{
+    position: relative;
+    writing-mode: vertical-rl;
+    left: 80px;
+    bottom: 120px;
+    transform: rotate(180deg);
+    letter-spacing: 9px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.product-desc{
+    margin-top: 0;
+}
+.view-more-btn{
+    background-color: #BE0505;
+    border: 2px solid #BE0505;
+    color: white;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    position: relative;
+    left: 1239px;
+    bottom: 42px;
+}
+
+.view-more-btn:hover{
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    background-color: white;
 }
