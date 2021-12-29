@@ -1,3 +1,7 @@
+/*--------------------
+  css design starts from here
+---------------------- */
+
 .service-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -16,6 +20,7 @@
     padding: 50px;
     height: 250px;
     color: white;
+    cursor: pointer;
 
 }
 .service-icon-design{
@@ -31,8 +36,30 @@
     display: block;
 }
 
-.read-more-btn {
-    background-color: rgb(212, 211, 211);
+.sales-btn {
+    background-color: #BDA0A0;
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    display: none;
+}
+.rentals-btn {
+    background-color: #BDA0A0;
+    border: 2px solid #BE0505;
+    color: #BE0505;
+    padding: 12px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+    display: none;
+}
+.services-btn {
+    background-color: #BDA0A0;
     border: 2px solid #BE0505;
     color: #BE0505;
     padding: 12px 25px;
@@ -44,7 +71,7 @@
 }
 
 .service:hover {
-    background: rgb(212, 211, 211);
+    background: rgba(116, 54, 54, 0.473);
 }
 
 
@@ -55,7 +82,7 @@
     background-position: center;
 }
 
-.sales:hover .read-more-btn{
+.sales:hover .sales-btn{
     display: block;
 }
 
@@ -83,7 +110,7 @@
     
 }
 
-.rentals:hover .read-more-btn{
+.rentals:hover .rentals-btn{
     display: block;
 }
 
@@ -110,7 +137,7 @@
     background-position: center;
 }
 
-.services:hover .read-more-btn{
+.services:hover .services-btn{
     display: block;
 }
 
@@ -159,3 +186,7 @@
     }
 
 }
+
+/*--------------------
+  css design ends here
+---------------------- */

@@ -1,3 +1,7 @@
+/*--------------------
+  css design starts from here
+---------------------- */
+
 .one-stop-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -8,15 +12,20 @@
 .one-stop-img{
     width: 400px;
     text-transform:capitalize;
-    transition:all .5s
+    transition:all .5s;
+
 }
+
 .one-stop-title{
     font-size: 35px;
     margin-top: 0;
 }
+
 .one-stop-details{
     text-align: justify;
 }
+
+/* buttons design */
 
 .learn-btn{
     background-color: #BE0505;
@@ -106,3 +115,7 @@
     }
     
 }
+
+/*--------------------
+  css design ends here
+---------------------- */

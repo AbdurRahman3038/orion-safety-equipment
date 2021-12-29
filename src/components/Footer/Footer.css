@@ -1,3 +1,7 @@
+/* ---------------------
+Design Starts from here 
+------------------------*/
+
 .newsletter{
     display: flex;
     flex-direction: row;
@@ -7,6 +11,8 @@
     padding: 5px 0px;
     color: white;
 }
+
+/* sign up button */
 
 .sign-up-btn{
     background-color: #BE0505;
@@ -23,6 +29,8 @@
     color: #BE0505;
     background-color: white;
 }
+
+/* main footer style */
 
 .main-footer{
     display: grid;
@@ -69,6 +77,8 @@
     padding-left: 70px;
 }
 
+/* social media style */
+
 .social{
     display: flex;
     flex-direction: row;
@@ -102,11 +112,6 @@
     padding: 5px 90px;
 }
 
-/* .footer-link a:hover
-{
-    transform:scale(1.2);
-} */
-
 
 /*--------------------
   Media Query for Mobile
@@ -122,9 +127,11 @@
         padding: 20px;
         
     }
+    
     .newsletter p{
         text-align: center;
     }
+
     .main-footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -132,7 +139,6 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
-    
     }
 
     .footer-contact{
@@ -143,6 +149,7 @@
         justify-content: center;
         padding: 50px;
     }
+
     .footer-address{
         padding-left: 78px;
     }
@@ -185,6 +192,7 @@
         padding: 20px;
         
     }
+
     .main-footer{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -196,3 +204,7 @@
     }
 
 }
+
+/* ---------------------
+Design ends from here 
+------------------------*/

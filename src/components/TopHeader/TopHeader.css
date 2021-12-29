@@ -1,4 +1,8 @@
 
+/*--------------------
+  css design starts from here
+---------------------- */
+
 .top-header-container {
     display: flex;
     flex-direction: row;
@@ -34,6 +38,8 @@
     margin-right: 10px;
 }
 
+/* displaying row all content */
+
 .address {
     display: flex;
     flex-direction: row;
@@ -63,6 +69,8 @@
     margin-left: 55px;
 }
 
+/* Icon design */
+ 
 .icon-design-2 {
     margin-left: 15px;
     font-size: 15px;
@@ -70,6 +78,7 @@
     padding-top: 10px;
 
 }
+
 .fa-facebook-f{
     margin-left: 50px;
 }
@@ -85,7 +94,9 @@
    
 }
 
-
+/*--------------------
+  Media Query for Mobile
+---------------------- */
 
 @media only screen and (max-width:688px){
     
@@ -103,6 +114,16 @@
         align-items: center;
         padding: 0;
        
+    }
+
+    .full-address{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(7, 7, 7);
+        padding: 10px 0;
+        width: 100%;
     }
 
     .phone-email {
@@ -126,6 +147,10 @@
     }
     
 }
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
 
 @media only screen and (min-width : 689px) and (max-width : 1024px) {
 
@@ -161,3 +186,7 @@
     }
     
 }
+
+/*--------------------
+  css design ends here
+---------------------- */

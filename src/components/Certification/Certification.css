@@ -1,3 +1,7 @@
+/*--------------------
+  css design starts from here
+---------------------- */
+
 .certification-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -17,15 +21,19 @@
 .certication-img{
     width: 400px;
 }
+
 .certification-title{
     text-align: center;
     font-size: 30px;
 }
+
 .certification-desc{
     margin-top: 0;
     text-align: center;
     padding: 0 25px;
 }
+
+/* Certification Button */
 
 .certification-learn-btn{
     background-color: #BE0505;
@@ -42,6 +50,8 @@
     color: #BE0505;
     background-color: white;
 }
+
+
 
 /*--------------------
   Media Query for Mobile
@@ -83,3 +93,7 @@
         width: 300px;
     }
 }
+
+/*--------------------
+  css design ends here
+---------------------- */

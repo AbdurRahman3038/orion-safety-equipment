@@ -4,14 +4,11 @@ import img from '../../images/logo.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const handleScroll = () => {
-        document.getElementsByClassName('header-container').style.top = 0;
-    }
-
+    
     return (
 
-        <div className="feature">
-            <div onScroll={handleScroll} className="header-container">
+        // <div className="feature">
+            <div className="header-container">
                 <div className="">
                     <Link to="/"> <img src={img} className="header-img" alt="" /></Link>
                 </div>
@@ -27,15 +24,13 @@ const Header = () => {
 
             </div>
 
-            <div className="banner-info">
-
+            /* <div className="banner-info">
                 <h1 className="banner-title">PROTECTION</h1>
                 <p className="banner-desc">IS WHAT WE DO BEST</p>
                 <button className="learn-more-btn">Learn More</button>
+            </div> */
 
-
-            </div>
-        </div>
+        /* </div> */
     );
 };
 

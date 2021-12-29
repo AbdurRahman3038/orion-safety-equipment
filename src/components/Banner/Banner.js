@@ -5,11 +5,10 @@ import Header from '../Header/Header';
 const Banner = () => {
     return (
 
-        <div className="feature ">
-            <Header className="header-style"></Header>
+        <div className="feature">
+            <Header> </Header>
 
             <div className="banner-info">
-
                 <h1 className="banner-title">PROTECTION</h1>
                 <p className="banner-desc">IS WHAT WE DO BEST</p>
                 <button className="learn-more-btn">Learn More</button>

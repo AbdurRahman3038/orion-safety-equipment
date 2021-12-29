@@ -5,7 +5,12 @@ import img2 from '../../images/certification 2.jpg';
 
 const Certification = () => {
     return (
+
+        // section container starts from here
+
         <div className="certification-container">
+
+            {/* certification part starts from here */}
 
             <div className="certification">
                 <img src={img1} className="certication-img" alt="" />
@@ -18,6 +23,8 @@ const Certification = () => {
                 </p>
                 <button className="certification-learn-btn"> Learn More</button>
             </div>
+
+            {/* certification part starts from here */}
 
             <div className="certification">
                 <img src={img2} className="certication-img" alt="" />
