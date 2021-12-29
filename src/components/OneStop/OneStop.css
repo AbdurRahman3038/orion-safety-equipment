@@ -7,9 +7,13 @@
 
 .one-stop-img{
     width: 400px;
-    
+    text-transform:capitalize;
+    transition:all .5s
 }
-
+.one-stop-title{
+    font-size: 35px;
+    margin-top: 0;
+}
 .one-stop-details{
     text-align: justify;
 }
@@ -50,6 +54,9 @@
     font-weight: 600;
 }
 
+/*--------------------
+  Media Query for Mobile
+---------------------- */
 
 @media only screen and (max-width:688px){
     .one-stop-container{
@@ -59,7 +66,43 @@
 
     }
     .one-stop-img{
-        width: 290px;
+        width: 320px;
         margin-top: 30px;
     }
+
+    .one-stop-title{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .learn-btn{
+        margin-left: 42px;
+    }
+}
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
+
+@media only screen and (min-width : 689px) and (max-width : 1024px){
+
+    .one-stop-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px;
+
+    }
+
+    .one-stop-img{
+        width: 280px;
+        margin: 30px 0;
+    }
+
+    .one-stop-title{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .one-stop-details{
+        font-size: 12px;
+    }
+    
 }

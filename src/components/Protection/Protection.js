@@ -8,7 +8,7 @@ const Protection = () => {
 
             <div className="protection-desc">
 
-                <h1 className="protection-title">Your One Stop Safety Shop</h1>
+                <h1 className="protection-title">Protection Is What We Do Best</h1>
                 <p className="protection-details">
                     Occupational hazards can be controlled and minimized in even the most dangerous situations: we know what's needed to outfit your space for hazard detection, safety and response, and are experienced in a range of environments, including gasplants, schools, warehouses, factories, retail outlets, mines, laboratories, and everyday work spaces. <br /> <br />
                     We work with an elite group of safety equipment suppliers to ensure we can provide you with a range of quality products. Over eighty percent of what we sell is made and sourced locally or domestically. We also recertify what we sell. Without compromise: the personal safety of yourself and those around you deserve nothing less.   <br /> <br />

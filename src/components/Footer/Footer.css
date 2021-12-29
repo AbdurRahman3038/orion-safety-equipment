@@ -46,10 +46,10 @@
     align-items: center;
     justify-content: center;
 }
+
 .contact-us{
     display: flex;
     flex-direction: column;
-    justify-content:start;
 }
 
 .footer-design{
@@ -75,9 +75,11 @@
     align-items:center;
     justify-content: space-between;
 }
+
 .footer-social-media{
     padding-right: 100px;
 }
+
 .footer-social-media .fab {
     color: #BE0505;
     font-size: 15px;
@@ -98,4 +100,99 @@
     background-color: black;
     font-size: 11px;
     padding: 5px 90px;
+}
+
+/* .footer-link a:hover
+{
+    transform:scale(1.2);
+} */
+
+
+/*--------------------
+  Media Query for Mobile
+---------------------- */
+
+@media only screen and (max-width:688px){
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+    .newsletter p{
+        text-align: center;
+    }
+    .main-footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    
+    }
+
+    .footer-contact{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    }
+    .footer-address{
+        padding-left: 78px;
+    }
+
+    .footer-design{
+        padding-right: 25px;
+    }
+
+    .copyright-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        background-color: black;
+        font-size: 11px;
+        padding: 30px;
+    }
+
+    .footer-img{
+        width: 300px;
+        margin-left: 50px;
+    }
+
+
+}
+
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
+
+@media only screen and (min-width : 689px) and (max-width : 1024px){
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+    }
+    .main-footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+    
+    }
+
 }

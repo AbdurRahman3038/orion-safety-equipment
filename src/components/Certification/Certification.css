@@ -6,12 +6,14 @@
     justify-content: center;
     padding: 80px 180px;
 }
+
 .certification{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .certication-img{
     width: 400px;
 }
@@ -39,4 +41,45 @@
     border: 2px solid #BE0505;
     color: #BE0505;
     background-color: white;
+}
+
+/*--------------------
+  Media Query for Mobile
+---------------------- */
+
+@media only screen and (max-width:688px){
+ 
+    .certification-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 40px;
+    }
+
+    .certication-img{
+        width: 300px;
+    }
+}
+
+
+/*--------------------
+  Media Query for Ipad
+---------------------- */
+
+@media only screen and (min-width : 689px) and (max-width : 1024px){
+
+    .certification-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 40px;
+    }
+
+    .certication-img{
+        width: 300px;
+    }
 }
