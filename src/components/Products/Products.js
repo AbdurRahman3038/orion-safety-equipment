@@ -50,10 +50,14 @@ const Products = () => {
         <>
             <div className="product-container">
 
+                {/* title  */}
+
                 <div className="title-part">
                     <h1 className="title">PRODUCT</h1>
                     <h3 className="categories">CATEGORIES</h3>
                 </div>
+
+                {/* slick slider starts from here  */}
 
                 <div className="all-product">
                     <Slider {...settings}>
@@ -109,6 +113,8 @@ const Products = () => {
                 </div>
 
             </div>
+
+            {/* button  */}
 
             <div>
                 <button className="view-more-btn">View More</button>

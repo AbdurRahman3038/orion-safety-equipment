@@ -1,5 +1,6 @@
 import React from 'react';
 import './Certification.css';
+
 import img1 from '../../images/certification 1.jpg';
 import img2 from '../../images/certification 2.jpg';
 
@@ -8,11 +9,11 @@ const Certification = () => {
 
         // section container starts from here
 
-        <div className="certification-container">
+        <div className="certification-container ">
 
             {/* certification part starts from here */}
 
-            <div className="certification">
+            <div className="certification ">
                 <img src={img1} className="certication-img" alt="" />
 
                 <h3 className="certification-title">Certification</h3>

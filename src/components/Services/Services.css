@@ -21,20 +21,24 @@
     height: 250px;
     color: white;
     cursor: pointer;
-
 }
+
 .service-icon-design{
     font-size: 70px;
     color: white;
     display: block;
 }
+
 .service-title{
     font-size: 30px;
     display: block;
 }
+
 .service-desc{
     display: block;
 }
+
+/* buttons design  */
 
 .sales-btn {
     background-color: #BDA0A0;
@@ -47,6 +51,7 @@
     font-weight: 600;
     display: none;
 }
+
 .rentals-btn {
     background-color: #BDA0A0;
     border: 2px solid #BE0505;
@@ -58,6 +63,7 @@
     font-weight: 600;
     display: none;
 }
+
 .services-btn {
     background-color: #BDA0A0;
     border: 2px solid #BE0505;
@@ -71,7 +77,7 @@
 }
 
 .service:hover {
-    background: rgba(116, 54, 54, 0.473);
+    background: rgba(150, 111, 111, 0.692);
 }
 
 

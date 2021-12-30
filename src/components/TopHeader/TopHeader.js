@@ -3,33 +3,40 @@ import './TopHeader.css';
 
 const TopHeader = () => {
     return (
-        <div class="top-header-container">
 
-            <div class="address-contact">
+        // container starts from here 
+
+        <div className="top-header-container">
+
+            <div className="address-contact">
+
+                {/* address part  */}
+
                 <div className="full-address">
-                    <div class="address">
-                        <i class="fas fa-map-marker-alt icon-design"></i>
+                    <div className="address">
+                        <i className="fas fa-map-marker-alt icon-design"></i>
                         <p>1161 40th Ave NE * Calgary, Alberto</p>
                     </div>
 
-                    <div class="phone-email">
-                        <div class="phone">
-                            <i class="fas fa-phone-alt icon-design"></i>
+                    <div className="phone-email">
+                        <div className="phone">
+                            <i className="fas fa-phone-alt icon-design"></i>
                             <p>(403) 769 - 1799 </p>
                         </div>
 
-                        <div class="email ">
-                            <i class="far fa-envelope icon-design"></i>
+                        <div className="email ">
+                            <i className="far fa-envelope icon-design"></i>
                             <p>Email Us</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="social-media">
-                    <i class="fab fa-facebook-f icon-design-2"></i>
-                    <i class="fab fa-instagram icon-design-2"></i>
-                    <i class="fab fa-linkedin-in icon-design-2"></i>
-                    <div class="bg-danger"></div>
+                {/* social media part  */}
+                <div className="social-media">
+                    <i className="fab fa-facebook-f icon-design-2"></i>
+                    <i className="fab fa-instagram icon-design-2"></i>
+                    <i className="fab fa-linkedin-in icon-design-2"></i>
+                    <div className="bg-danger"></div>
                 </div>
             </div>
 
